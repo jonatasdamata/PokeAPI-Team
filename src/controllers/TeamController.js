@@ -1,6 +1,18 @@
 import axios from "axios";
 import Team from "../models/Team.js";
 
+// Função para verificar se o nome do Pokémon é válido
+async function isValidPokemon(pokemonName) {
+  try {
+    const response = await axios.get(
+      `https://pokeapi.co/api/v2/pokemon/${pokemonName}`
+    );
+    return response.status === 200; // Se o Pokémon existe
+  } catch (error) {
+    return false; // (nome inválido)
+  }
+}
+
 // Criar Times
 async function createTeam(request, response) {
   const { user, team } = request.body;
@@ -11,7 +23,15 @@ async function createTeam(request, response) {
       return response.status(400).json({ error: "Lista de pokémons vazia" });
     }
 
-    // Verificar se cada pokémon na lista é válido e buscar suas informações na PokeAPI
+    // Verificar se cada pokémon na lista é válido
+    const isValid = await Promise.all(team.map(isValidPokemon));
+    if (isValid.includes(false)) {
+      return response
+        .status(400)
+        .json({ error: "Um ou mais nomes de pokémons inválidos" });
+    }
+
+    // Buscar informações de cada pokémon na PokeAPI
     const pokemonDetailsPromises = team.map(async (pokemonName) => {
       try {
         const response = await axios.get(
@@ -29,15 +49,15 @@ async function createTeam(request, response) {
     // Mapear apenas os nomes dos pokémons
     const pokemonNames = pokemonDetails.map((pokemon) => pokemon.name);
 
-    // Criar o novo time com os detalhes dos pokémons
+    // Criar o novo time com os nomes dos pokémons
     const newTeam = await Team.create({
       user,
-      team: pokemonDetails.map((pokemon) => pokemon.name),
+      team: pokemonNames,
     });
 
     return response.status(201).json({
       user,
-      team: pokemonDetails.map((pokemon) => pokemon.name),
+      team: pokemonNames,
     });
   } catch (error) {
     return response.status(400).json({ error: error.message });
