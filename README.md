@@ -5,10 +5,10 @@ Trata-se de um desafio técnico proposto pela Triágil como parte do processo de
 
 ## Descrição do Desafio
 
-O objetivo deste desafio é criar uma API capaz de montar times de Pokémon a partir de uma lista fornecida pelo usuário, utilizando a PokeAPI. O usuário deve ser capaz de gerar um novo time, passando uma lista de Pokémon e um nome de usuário. A API deve validar os Pokémon fornecidos, buscar os dados na PokeAPI e salvar o time. Além disso, deve fornecer rotas para listar todos os times registrados, buscar um time pelo usuário e criar um novo time.
+O objetivo deste desafio é criar uma API capaz de montar times de Pokémon a partir de uma lista fornecida pelo usuário, utilizando a [PokeAPI](https://pokeapi.co/). O usuário deve ser capaz de gerar um novo time, passando uma lista de Pokémon e um nome de usuário. A API deve validar os Pokémon fornecidos, buscar os dados na PokeAPI e salvar o time. Além disso, deve fornecer rotas para listar todos os times registrados, buscar um time pelo usuário e criar um novo time.
 
 
-## Requisitos
+## Requisitos Técnicos 
 ### Rotas
 
 • GET /api/teams: Lista todos os times registrados. <br/>
@@ -64,7 +64,7 @@ npm start
 O servidor será iniciado na porta padrão 3000. Você pode acessar a API em http://localhost:3000. <br/> 
 
 Observações: <br/>
-• Certifique-se de ter o Node.js e o npm instalados em seu sistema. <br/>
+• Certifique-se de ter o [Node.js](https://nodejs.org/) e o npm instalados em seu sistema. <br/>
 • As dependências do projeto incluem Express, Mongoose, Nodemon, Axios e BSON. O comando npm install instalará todas essas dependências para você.
 
 ### Opção 2: Uso do Docker
@@ -97,7 +97,7 @@ Aqui estão as instruções sobre como testar a API de Times de Pokémon utiliza
 
 ### 1. Instalação do Postman:
 
-Se você ainda não tiver o Postman instalado, você pode baixá-lo e instalá-lo a partir do site oficial: Postman Download.
+Se você ainda não tiver o Postman instalado, você pode baixá-lo e instalá-lo a partir do site oficial: [Postman Download.](https://www.postman.com/downloads/)
 
 ### 2. Importando a coleção do Postman:
 
