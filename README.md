@@ -22,21 +22,6 @@ O objetivo deste desafio é criar uma API capaz de montar times de Pokémon a pa
   "team": ["pokemon1", "pokemon2", ...]
 }
 ```
-### Output do JSON
-```bash
-{
-  "owner": "nome_de_usuario",
-  "pokemons": [
-    {
-      "id": ID_do_Pokémon,
-      "name": "nome_do_Pokémon",
-      "weight": peso_do_Pokémon,
-      "height": altura_do_Pokémon
-    },
-    ...
-  ]
-}
-```
 
 ## Tecnologias Utilizadas: 
 • Node.js <br/>
