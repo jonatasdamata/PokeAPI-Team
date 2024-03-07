@@ -88,7 +88,7 @@ Se você ainda não tiver o Postman instalado, você pode baixá-lo e instalá-l
 
 Você pode importar a coleção do Postman pré-configurada para este projeto. Para fazer isso, siga os passos abaixo: <br/>
 
-• Faça o download do arquivo de coleção do Postman fornecido no repositório. <br/>
+• Faça o download do arquivo de coleção do Postman fornecido no repositório. (PokeAPI-Team-Desafio.postman_collection.json) <br/>
 • Abra o Postman e clique em "Import" no canto superior esquerdo. <br/>
 • Selecione o arquivo da coleção que você baixou. <br/> 
 • A coleção será importada para o Postman e estará disponível na barra lateral esquerda.
