@@ -8,7 +8,7 @@ Trata-se de um desafio técnico proposto pela Triágil como parte do processo de
 O objetivo deste desafio é criar uma API capaz de montar times de Pokémon a partir de uma lista fornecida pelo usuário, utilizando a PokeAPI. O usuário deve ser capaz de gerar um novo time, passando uma lista de Pokémon e um nome de usuário. A API deve validar os Pokémon fornecidos, buscar os dados na PokeAPI e salvar o time. Além disso, deve fornecer rotas para listar todos os times registrados, buscar um time pelo usuário e criar um novo time.
 
 
-## Requesitos
+## Requisitos
 ### Rotas
 
 • GET /api/teams: Lista todos os times registrados. <br/>
