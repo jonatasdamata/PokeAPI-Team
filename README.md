@@ -88,7 +88,7 @@ Se você ainda não tiver o Postman instalado, você pode baixá-lo e instalá-l
 
 Você pode importar a coleção do Postman pré-configurada para este projeto. Para fazer isso, siga os passos abaixo: <br/>
 
-• Faça o download do arquivo de coleção do Postman fornecido no repositório. (PokeAPI-Team-Desafio.postman_collection.json) <br/>
+• Faça o download do arquivo de coleção do Postman fornecido no repositório (PokeAPI-Team-Desafio.postman_collection.json). <br/>
 • Abra o Postman e clique em "Import" no canto superior esquerdo. <br/>
 • Selecione o arquivo da coleção que você baixou. <br/> 
 • A coleção será importada para o Postman e estará disponível na barra lateral esquerda.
@@ -97,6 +97,7 @@ Você pode importar a coleção do Postman pré-configurada para este projeto. P
 
 Com a coleção importada, você terá acesso às seguintes requisições pré-configuradas: <br/>
 
+#### 3.1)  POST /api/teams -
 • Criar Time de Pokémon: Esta requisição permite que você crie um novo time de Pokémon, fornecendo um nome de usuário e uma lista de Pokémon. Certifique-se de preencher os campos corretamente antes de enviar a requisição.
 #### Input:
 ```bash
@@ -113,8 +114,8 @@ Com a coleção importada, você terá acesso às seguintes requisições pré-c
 }
 ```
 <br/>
-<br/>
 
+#### 3.2)  GET /api/teams/{user}
 • Buscar Time por Usuário: Esta requisição permite buscar um time específico pelo nome de usuário.
 #### Output /api/teams/{user}:
 ```bash
@@ -137,8 +138,8 @@ Com a coleção importada, você terá acesso às seguintes requisições pré-c
 }
 ```
 <br/>
-<br/>
 
+#### 3.3)  GET /api/teams - 
 • Listar Todos os Times: Esta requisição lista todos os times registrados na API.
 #### Output /api/teams
 ```bash
