@@ -1,7 +1,7 @@
 # API de Times de Pokémon
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/jonatasdamata/PokeAPI-Team-Desafio/blob/master/LICENSE)  <br/>
 Este repositório contém uma API desenvolvida para criar e gerenciar times de Pokémon. <br/>
-Trata-se de um desafio técnico proposto pela Triágil como parte do processo de seleção para a vaga de estágio.
+
 
 ## Descrição do Desafio
 
@@ -218,6 +218,3 @@ Jonatas da Mata
 https://www.linkedin.com/in/jonatasdamatadev/
 
 
-## Agradecimentos
-
-Gostaria de expressar minha sincera gratidão à equipe da Triágil por me conceder a oportunidade de participar do processo seletivo para a vaga de estágio. Agradeço pelo desafio proposto e pela oportunidade de demonstrar minhas habilidades e conhecimentos. Estou ansioso para contribuir positivamente com a equipe e aprender com os profissionais talentosos da Triágil. Muito obrigado!
