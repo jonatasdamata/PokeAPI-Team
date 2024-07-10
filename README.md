@@ -215,6 +215,6 @@ Após preencher os dados necessários em cada requisição, você pode clicar no
 
 Jonatas da Mata
 
-https://www.linkedin.com/in/jonatasdamatadev/
+https://www.linkedin.com/in/jonatasdamata/
 
 
