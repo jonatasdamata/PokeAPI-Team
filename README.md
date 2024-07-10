@@ -5,7 +5,7 @@ Este repositório contém uma API desenvolvida para criar e gerenciar times de P
 
 ## Descrição do Desafio
 
-O objetivo deste prpjeto é criar uma API capaz de montar times de Pokémon a partir de uma lista fornecida pelo usuário, utilizando a [PokeAPI](https://pokeapi.co/). O usuário deve ser capaz de gerar um novo time, passando uma lista de Pokémon e um nome de usuário. A API deve validar os Pokémon fornecidos, buscar os dados na PokeAPI e salvar o time. Além disso, deve fornecer rotas para listar todos os times registrados, buscar um time pelo usuário e criar um novo time.
+O objetivo deste projeto é criar uma API capaz de montar times de Pokémon a partir de uma lista fornecida pelo usuário, utilizando a [PokeAPI](https://pokeapi.co/). O usuário deve ser capaz de gerar um novo time, passando uma lista de Pokémon e um nome de usuário. A API deve validar os Pokémon fornecidos, buscar os dados na PokeAPI e salvar o time. Além disso, deve fornecer rotas para listar todos os times registrados, buscar um time pelo usuário e criar um novo time.
 
 
 ## Requisitos Técnicos 
